@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.HBApp{
+    display: flex;
+    width: 22vw;
+    height: 70vh;
+    background: red;
+    font-size: 1em;
+    border-radius: 20px;
+    flex-direction: column;
+    padding: 5%;
+    opacity: 0.75;
+}
+.HBHead{
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    width: 100%;
+    color: white;
+    align-items: flex-end;
+    padding-bottom: 3%;
+    border-bottom: white 1px solid;
+}
+.HBHead>p{
+    display: flex;
+    font-size: 1.5em;
+}
+.HBBody{
+    padding-top: 5%;
+    height: 50%;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+}
+.HBBody form{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    justify-content: center;
+
+
+}
+.HBBody form input{
+    display: flex;
+    width: 90%;
+    height: 20%;
+    padding: 0 5%;
+    border-radius: 10px;
+    border: none;
+}
+.HBBody form span{
+    font-size: 1.2em;
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.HBButton {
+    height: 30%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.HBButton button{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    border-radius: 10px;
+    border: none;
+    justify-content: center;
+    font-size: 1.8em;
+    color: white;
+    background: darkred;
+    opacity: 0.8;
+}
